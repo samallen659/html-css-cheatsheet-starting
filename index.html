@@ -108,22 +108,45 @@
 					</tbody>
 				</table>
 			</section>
-            <section class="combinators">
-                <table>
-                    <thead>
-                        <tr>
+			<section class="combinators">
+				<h2>Selector Combinators</h2>
+				<table>
+					<thead>
 						<tr>
 							<td>Selector</td>
 							<td>Name</td>
 							<td>Description</td>
 						</tr>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        
-                    </tbody>
-                </table>
-            </section>
+					</thead>
+					<tbody>
+						<tr>
+							<td>div p</td>
+							<td>Descendant Combinator</td>
+							<td>Selects all p elements that are inside a div</td>
+						</tr>
+						<tr>
+							<td>div > p</td>
+							<td>Child Combinator</td>
+							<td>Selects all p elements that are nested directly inside a div element</td>
+						</tr>
+						<tr>
+							<td>div ~ p</td>
+							<td>General Sibling Combinator</td>
+							<td>Selects all p elements that follow a div, immediately or not</td>
+						</tr>
+						<tr>
+							<td>div + p</td>
+							<td>Adjacent Sibling Combinator</td>
+							<td>Selects all p elements that immediately follow a div element</td>
+						</tr>
+						<tr>
+							<td>col || td</td>
+							<td>Column combinator</td>
+							<td>Selects all td elements that belong to the scope of the col</td>
+						</tr>
+					</tbody>
+				</table>
+			</section>
 		</main>
 	</body>
 </html>
